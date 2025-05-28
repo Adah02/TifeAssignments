@@ -13,5 +13,6 @@ public class MultiplicationTable {
 	for (int i = 1; i <= 12; i++)
 	System.out.println( i +" "+ "*"+ " " + userInput + " "+ "=" + " "+ i * userInput);
 
+
 	}
 }
