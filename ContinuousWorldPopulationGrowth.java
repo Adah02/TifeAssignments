@@ -16,10 +16,9 @@ public class ContinuousWorldPopulationGrowth {
 
 	double population = futurePopulation;
 	
-	for (int counter =1; counter <= 76; counter++){
+	for (int counter =1; counter < 76; counter++){
 		population += difference;
 		System.out.println(counter + " " + (int)population);
 		}
-	
 	}
 }
