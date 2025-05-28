@@ -8,12 +8,12 @@ public class CostOfShipping {
 
 	System.out.print("Enter weight of package: ");
 	double w = input.nextDouble();
-
-	/*double cost1 = (3.5 * w);
+/*
+	double cost1 = (3.5 * w);
 	double cost2 = (5.5 * w);
 	double cost3 = (8.5 * w);
-	double cost4 = (10.5 * w);*/
-
+	double cost4 = (10.5 * w);
+*/
 	if (0 < w && w <= 1){
 	System.out.printf("$%.1f", 3.5);
 	}
